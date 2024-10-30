@@ -6,7 +6,12 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
+
+
 
 header{padding: 1vh;
     background-color: #222222;
