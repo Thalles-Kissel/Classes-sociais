@@ -96,7 +96,7 @@ h1::before {
     background-image: url();
     content: "Tema:";
     font-weight: 900;
-    color: rgb(0, 4, 255);
+    color: #005c91;
 }
 
 
