@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{padding: 1vh;
+    background-color: #222222;
+    color: #f1f1f1;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 18px;
+    color: #ffffff;
+    transition: background-color 0.5s;
+}
+
+ .navbar ul li a:active{
+    background-color: #ffffff;
+}
+
+.navbar ul li:hover{
+    border-radius: 18px;
+    padding: 3px;
+    background-color: #d1b9b9;
+}
+
+img{
+    margin: 10px;
+    box-shadow: 0 0 30px #000000;
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+}
+
+.classes{
+    margin: 18px;
+}
+
+.alta p::after{
+    background-image: url();
+}
+
+.classes p{
+    font-size: 19px;
+    margin: 13px;
+}
+
+footer{
+    padding: 15px;
+    color: #ffffff;
+    background-color: #222222;
+    text-align: center;
+    
+}
+
+/* pseudoelemento aplicado ao h1 adconando conteudo antes */
+/* .alta::after{
+    content: url(https://cdn.pixabay.com/photo/2017/07/18/15/37/rich-2516124_1280.png);
+    display: flex;
+    justify-content: ;
+} */
+
+h1::before{
+    background-image: url();
+    content: "Tema:";
+    font-weight: 900;
+    color: rgb(0, 4, 255);
+}
+
+
+h2::first-letter{
+    font-weight: 800;
+    font-size: 40px;
+    color: #005c91;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* @media(max-width: 480px){
+    .header{
+        padding: 20px;
+        font-size: 10px;
+        background-color: #222222;
+        color: #f1f1f1;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    .header nav ul li{
+        font-size: ;
+    }
+} */
